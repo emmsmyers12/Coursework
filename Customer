@@ -1,0 +1,53 @@
+package Customer;
+
+import java.util.Scanner;
+
+public class customer_details {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+String FirstName;
+String Surname;
+String Address1;
+String City;
+String PCode;
+String PhoneNum;
+String Email;
+
+Scanner in  = new Scanner(System.in);
+
+System.out.println("Enter your first name");
+FirstName = in.next();
+
+System.out.println("Enter your last name");
+Surname = in.next();
+
+System.out.println("Enter the first line of your address");
+Address1 = in.next();
+
+System.out.println("Enter your city");
+City = in.next();
+
+System.out.println("Enter your postcode");
+PCode = in.next();
+
+System.out.println("Enter your phone number");
+PhoneNum = in.next();
+
+System.out.println("Enter your email address");
+Email = in.next();
+
+System.out.println(FirstName);
+System.out.println(Surname);
+System.out.println(Address1);
+System.out.println(City);
+System.out.println(PCode);
+System.out.println(PhoneNum);
+System.out.println(Email);
+
+
+
+	}
+
+}
